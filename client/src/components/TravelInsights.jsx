@@ -3,7 +3,7 @@ import {
   TrendingUp, MapPin, Calendar, Users, 
   Star, Clock, DollarSign, Camera 
 } from 'lucide-react'
-import { api } from '../config/api.js'
+// import { api } from '../config/api.js'
 
 const TravelInsights = ({ destination }) => {
   const [insights, setInsights] = useState(null)
